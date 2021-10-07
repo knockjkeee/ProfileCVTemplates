@@ -5,7 +5,7 @@ export default class Experiences extends Component {
         return (
             <div>
                 <div className="card z-depth-0">
-                    <div className="card-content">
+                    <div className="card-content social">
                         <h6>
                             <strong>
                                 <i className="fas fa-tools"></i>  ПРОФЕССИОНАЛЬНЫЙ ОПЫТ

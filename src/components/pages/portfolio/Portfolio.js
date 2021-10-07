@@ -6,10 +6,10 @@ export default class Portfolio extends Component {
             <div>
                 <div div >
                     <div className="card z-depth-0">
-                        <div className="card-content">
+                        <div className="card-content social">
                             <h6>
                                 <strong>
-                                    <i className="fas fa-laptop-code"></i>  ОПЫТ в ПРОГРАММИРОВАНИИ
+                                    <i className="fas fa-laptop-code"></i>  ОПЫТ В ПРОГРАММИРОВАНИИ
                                 </strong>
                             </h6>
                             <div className="row mt">

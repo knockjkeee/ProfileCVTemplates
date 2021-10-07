@@ -5,7 +5,7 @@ export default class SkillsAndTechnology extends Component {
         return (
             <div div >
                 <div className="card z-depth-0">
-                    <div className="card-content">
+                    <div className="card-content social">
                         <h6>
                             <strong>
                                 <i className="fas fa-laptop-code"></i>  НАВЫКИ И ТЕХНОЛОГИИ

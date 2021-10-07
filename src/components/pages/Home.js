@@ -7,6 +7,7 @@ import SkillsAndTechnology from '../../components/pages/skillsAndTechnology/Skil
 import Experiences from '../../components/pages/experiences/Experiences'
 import Skills from '../../components/pages/skills/Skills'
 import Portfolio from '../../components/pages/portfolio/Portfolio';
+import Modal from '../../components/Modal'
 
 
 export default class Home extends Component {
@@ -26,6 +27,7 @@ export default class Home extends Component {
                         <Experiences />
                         <SkillsAndTechnology />
                         <Portfolio />
+                        <Modal />
                     </div>
                 </div>
             </section>

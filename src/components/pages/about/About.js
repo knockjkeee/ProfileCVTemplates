@@ -10,7 +10,7 @@ export default class About extends Component {
                             <strong>РОСТОВ ПАВЕЛ</strong>
                         </h2>
                         <h5 className="grey-text text-darken-1">JAVA Developer</h5>
-                        <a href="https://likedin.com" target="blank" >
+                        <a href="https://www.linkedin.com/in/pavel-rostov-966692122" target="blank" >
                             <i className="fab fa-linkedin fa-2x"></i>
                         </a>
                         <a href="https://github.com/knockjkeee" target="blank">

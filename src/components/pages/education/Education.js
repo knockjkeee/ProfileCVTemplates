@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 export default class Education extends Component {
     render() {
         return (
             <div>
                 <div className="card z-depth-0">
-                    <div className="card-content">
+                    <div className="card-content social">
                         <h6>
                             <strong>
                                 <i className="fas fa-graduation-cap"></i>  ОБРАЗОВАНИЕ
