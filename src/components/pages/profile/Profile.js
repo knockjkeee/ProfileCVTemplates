@@ -33,7 +33,7 @@ export default class Profile extends Component {
                         <hr />
                         <p className="grey-text text-lighten-3 pt">
                             <strong>Нераскрывшийся разработчик</strong> программного обеспечения<br />
-                            Движущийся всегда рядом с берегом  <strong>бурлящей реки разработки</strong><br />
+                            Движущийся всегда вдоль берега<strong>бурлящей реки разработки</strong><br />
                             <strong>Преследуемый мечтой</strong> окунуться с головой в разработку
                         </p>
                     </div>

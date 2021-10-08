@@ -1,5 +1,5 @@
 .sameHeight {
-  display: flex;  
+  /* display: flex; */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -9,7 +9,7 @@
 
 .wrap-content{
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 50;
 }
 .avatarImg img{
   display: block;
@@ -27,7 +27,7 @@
 }
 
 .pt {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 h5 {
@@ -45,15 +45,6 @@ h6 span {
     padding: 2px;
     color: #fff;
   }
-}
-.card-content.social{
-  padding-bottom: 0px;
-  padding-top: 0px;
-}
-
-.card-content{
-  padding-top: 2px;
-  padding-bottom: 2px;
 }
 
 @media only screen and(max-width: 420px){
@@ -76,37 +67,3 @@ h6 span {
     font-size: 90%;
   }
 } 
-
-.modal {
-  font-size: 12px;
-}
-.modal > .header {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 18px;
-  text-align: center;
-  padding: 5px;
-}
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
-}
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
-.modal > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid #cfcece;
-}

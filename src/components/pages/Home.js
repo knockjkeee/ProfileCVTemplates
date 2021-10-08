@@ -27,7 +27,7 @@ export default class Home extends Component {
                         <Experiences />
                         <SkillsAndTechnology />
                         <Portfolio />
-                        <Modal />
+                        <Modal name="sasdasd" />
                     </div>
                 </div>
             </section>
