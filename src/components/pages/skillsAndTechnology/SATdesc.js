@@ -10,7 +10,7 @@ export default class sATdesc extends Component {
                         <div className="card z-depth-0">
                             <div className="card-content social">
                                 <div className="row mt">
-                                    <div className="col s14">
+                                    <div className="col s12">
                                         <blockquote className="content-right">
                                             {/* <div className="header center"> Modal Title </div> */}
                                             <div className="content" style={{
