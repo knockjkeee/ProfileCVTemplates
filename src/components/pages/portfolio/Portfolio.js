@@ -18,6 +18,13 @@ export default class Portfolio extends Component {
                             <div className="col s12">
                                 <blockquote className="content-right">
                                     <p className="pt">
+
+                                        <h6 className="no-pad mt-bottom">
+                                            <strong>Программирование изучаю самостоятельно</strong>
+                                            <span>с 2017 по настоящее время</span>
+                                        </h6>
+
+                                        {/* <strong>Программирование изучаю самостоятельно с 2017 по настоящее время.<br /><br />    </strong> */}
                                         <SATdesc title="Подробности" name={dataExp[4].skills} />
                                     </p>
                                 </blockquote>

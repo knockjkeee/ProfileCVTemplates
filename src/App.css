@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  text-align: justify;
+  /* text-align: justify; */
   /* height: 1320px; */
 }
 

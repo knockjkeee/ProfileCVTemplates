@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import SkillsDes from '../../../components/pages/skills/SkillsDes'
+// import Skills from '../../components/pages/skills/Skills'
+import Skills from '../../../components/pages/skills/Skills'
 import { dataExp } from '../../../components/data'
 
 export default class SkillsAndTechnology extends Component {
@@ -18,7 +20,7 @@ export default class SkillsAndTechnology extends Component {
                             <div className="col s12">
                                 <blockquote className="content-right">
                                     <p className="pt">
-
+                                        <Skills />
                                         <SkillsDes title="Подробности" name={dataExp[4].skills} />
                                     </p>
 

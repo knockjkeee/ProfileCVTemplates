@@ -22,13 +22,6 @@ export default class Contact extends Component {
                             <br />
                             <strong>Email</strong>: knockjkeee@gmail.com
                             <br />
-
-
-                            Phone: +123456789
-                            <br />
-                            Email: email@email.com
-                            <br />
-                            Wersite: www.google.com
                         </p>
                     </div>
                 </div>

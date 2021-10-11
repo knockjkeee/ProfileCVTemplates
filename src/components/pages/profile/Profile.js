@@ -16,7 +16,7 @@ export default class Profile extends Component {
                         <h2 className="white-text text-lighten-e">
                             <strong>Ростов Павел</strong>
                         </h2>
-                        <h5 className="grey-text text-lighten-1">Full Stack Developer</h5>
+                        <h5 className="grey-text text-lighten-1">Junior java developer</h5>
                         <a href="https://likedin.com" target="blank">
                             <i className="fab fa-linkedin fa-2x"></i>
                         </a>
