@@ -7,7 +7,12 @@ export default class Modal extends Component {
         return (
             // <div>
             <Popup trigger={<button className=""> {this.props.title} </button>} modal>
-                <div className="row">
+                <div className="row"
+                    style={{
+                        "maxHeight": "100vh",
+                        "overflowY": "auto"
+                    }}
+                >
                     <div className="col s12 m12 l14 white sameHeight">
                         <div className="card z-depth-0">
                             <div className="card-content social">

@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
 
                                         <h6 className="no-pad mt-bottom">
                                             <strong>Программирование изучаю самостоятельно</strong>
-                                            <span>с 2017 по настоящее время</span>
+                                            <span> 2017 - по настоящее время</span>
                                         </h6>
 
                                         {/* <strong>Программирование изучаю самостоятельно с 2017 по настоящее время.<br /><br />    </strong> */}

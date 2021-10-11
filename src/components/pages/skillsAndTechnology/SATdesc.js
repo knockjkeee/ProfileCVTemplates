@@ -5,7 +5,10 @@ export default class sATdesc extends Component {
     render() {
         return (
             <Popup trigger={<button className="button"> {this.props.title} </button>} modal>
-                <div className="row" >
+                <div className="row" style={{
+                    "maxHeight": "100vh",
+                    "overflowY": "auto"
+                }}>
                     <div className="col s12 m12 l14 white sameHeight">
                         <div className="card z-depth-0">
                             <div className="card-content social">
@@ -14,10 +17,10 @@ export default class sATdesc extends Component {
                                         <blockquote className="content-right">
                                             {/* <div className="header center"> Modal Title </div> */}
                                             <div className="content" style={{
-                                                "fontSize": "0.85em",
+                                                // "fontSize": "0.9em",
                                                 // "overflowY": "scroll"
                                             }}>
-                                                Программирование изучаю самостоятельно с 2017 по настоящее время. <br />
+                                                Программирование изучаю самостоятельно  c 2017 по настоящее время. <br />
                                                 <br />
                                                 Программа обучения сложилась в 4 основных этапа:<br />
                                                 1.	Старт изучения. Обучение на интерактивных платформах, таких как javarush.<br />
@@ -42,7 +45,7 @@ export default class sATdesc extends Component {
                                                 Github - https://github.com/knockjkeee/school_control &nbsp;&nbsp;
                                                 <a href="https://github.com/knockjkeee/school_control" target="blank">
                                                     <i className="fab fa-github-square fa-2x"></i>
-                                                </a> <br />
+                                                </a> <br /><br />
                                                 Еще пробовал React:<br />
                                                 Github - https://github.com/knockjkeee/voda_template<br />
                                                 Простенький Landing page: https://knockjkeee.github.io/voda-app/<br />
