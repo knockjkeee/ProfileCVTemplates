@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  /* text-align: justify; */
+  text-align: justify;
   /* height: 1320px; */
 }
 
@@ -17,7 +17,7 @@
   display: block;
   margin: 0 auto;
   margin-top: 50px;
-  max-width: 200px;
+  max-width: 280px;
 }
 .social i{
   padding: 2px;
@@ -74,8 +74,8 @@ h6 span {
     float: left;
     font-size: 90%;
   }
-  /* .card-content.social{
+  .card-content.social{
     width: 700px;
-  } */
+  }
 } 
 
