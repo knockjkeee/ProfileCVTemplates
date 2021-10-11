@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ProfileCVTemplates/static/css/main.95ed8996.chunk.css",
-    "main.js": "/ProfileCVTemplates/static/js/main.84e18a3a.chunk.js",
-    "main.js.map": "/ProfileCVTemplates/static/js/main.84e18a3a.chunk.js.map",
+    "main.css": "/ProfileCVTemplates/static/css/main.b89167d6.chunk.css",
+    "main.js": "/ProfileCVTemplates/static/js/main.f5674aba.chunk.js",
+    "main.js.map": "/ProfileCVTemplates/static/js/main.f5674aba.chunk.js.map",
     "runtime-main.js": "/ProfileCVTemplates/static/js/runtime-main.09c446fa.js",
     "runtime-main.js.map": "/ProfileCVTemplates/static/js/runtime-main.09c446fa.js.map",
     "static/css/2.29c53604.chunk.css": "/ProfileCVTemplates/static/css/2.29c53604.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.1f431f05.chunk.js.map": "/ProfileCVTemplates/static/js/3.1f431f05.chunk.js.map",
     "index.html": "/ProfileCVTemplates/index.html",
     "static/css/2.29c53604.chunk.css.map": "/ProfileCVTemplates/static/css/2.29c53604.chunk.css.map",
-    "static/css/main.95ed8996.chunk.css.map": "/ProfileCVTemplates/static/css/main.95ed8996.chunk.css.map",
+    "static/css/main.b89167d6.chunk.css.map": "/ProfileCVTemplates/static/css/main.b89167d6.chunk.css.map",
     "static/js/2.cc74fe34.chunk.js.LICENSE.txt": "/ProfileCVTemplates/static/js/2.cc74fe34.chunk.js.LICENSE.txt",
-    "static/media/img.3bb2507a.jpg": "/ProfileCVTemplates/static/media/img.3bb2507a.jpg"
+    "static/media/img.14b3a264.jpg": "/ProfileCVTemplates/static/media/img.14b3a264.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.09c446fa.js",
     "static/css/2.29c53604.chunk.css",
     "static/js/2.cc74fe34.chunk.js",
-    "static/css/main.95ed8996.chunk.css",
-    "static/js/main.84e18a3a.chunk.js"
+    "static/css/main.b89167d6.chunk.css",
+    "static/js/main.f5674aba.chunk.js"
   ]
 }
