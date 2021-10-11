@@ -4,8 +4,8 @@ import Popup from 'reactjs-popup';
 export default class sATdesc extends Component {
     render() {
         return (
-            <Popup trigger={<button className=""> {this.props.title} </button>} modal>
-                <div className="row">
+            <Popup trigger={<button className="button"> {this.props.title} </button>} modal>
+                <div className="row" >
                     <div className="col s12 m12 l14 white sameHeight">
                         <div className="card z-depth-0">
                             <div className="card-content social">
@@ -14,7 +14,7 @@ export default class sATdesc extends Component {
                                         <blockquote className="content-right">
                                             {/* <div className="header center"> Modal Title </div> */}
                                             <div className="content" style={{
-                                                "fontSize": "0.8em",
+                                                "fontSize": "0.85em",
                                                 // "overflowY": "scroll"
                                             }}>
                                                 Программирование изучаю самостоятельно с 2017 по настоящее время. <br />

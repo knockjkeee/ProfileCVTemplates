@@ -4,10 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  text-align: justify;
+  /* text-align: justify; */
   /* height: 1320px; */
   /* "fontSize": "0.8em", */
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 
@@ -57,15 +57,19 @@ h6 span {
     padding: 2px;
     color: #fff;
   }
-  /* .sameHeight{
-    height: auto;
+  /* .sameHeight.second{
+    width: auto;
   } */
 }
 
 @media only screen and (min-width: 994px){
   .sameHeight.first{
-    height: 1498px;
+    height: 1478px;
+    /* width: auto; */
   } 
+  /* .sameHeight.second{
+    width: 4000px;
+  } */
 }
 
 @media only screen and(max-width: 420px){
@@ -89,6 +93,9 @@ h6 span {
   }
   .card-content.social{
     width: 700px;
+  }
+  .sameHeight.second{
+    width: auto;
   }
 } 
 
