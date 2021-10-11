@@ -14,7 +14,8 @@ export default class sATdesc extends Component {
                                         <blockquote className="content-right">
                                             {/* <div className="header center"> Modal Title </div> */}
                                             <div className="content" style={{
-                                                "fontSize": "0.9em"
+                                                "fontSize": "0.8em",
+                                                // "overflowY": "scroll"
                                             }}>
                                                 Программирование изучаю самостоятельно с 2017 по настоящее время. <br />
                                                 <br />

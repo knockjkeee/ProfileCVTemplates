@@ -15,7 +15,8 @@ export default class Home extends Component {
         return (
             <section>
                 <div className="row">
-                    <div className="col s12 m12 l4 light-blue darken-4 sameHeight" style={{ "height": "1538px" }} >
+                    {/* <div className="col s12 m12 l4 light-blue darken-4 sameHeight first" style={{ "height": "1538px" }} > */}
+                    <div className="col s12 m12 l4 light-blue darken-4 sameHeight first" >
                         <Profile />
                         <Contact />
                         {/* <Skills /> */}

@@ -6,7 +6,11 @@
   align-items: stretch;
   text-align: justify;
   /* height: 1320px; */
+  /* "fontSize": "0.8em", */
+  font-size: 0.9em;
 }
+
+
 
 .wrap-content{
   margin-top: 5px;
@@ -17,7 +21,7 @@
   display: block;
   margin: 0 auto;
   margin-top: 50px;
-  max-width: 280px;
+  max-width: 200px;
 }
 .social i{
   padding: 2px;
@@ -53,6 +57,15 @@ h6 span {
     padding: 2px;
     color: #fff;
   }
+  /* .sameHeight{
+    height: auto;
+  } */
+}
+
+@media only screen and (min-width: 994px){
+  .sameHeight.first{
+    height: 1498px;
+  } 
 }
 
 @media only screen and(max-width: 420px){
