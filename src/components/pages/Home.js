@@ -15,7 +15,7 @@ export default class Home extends Component {
         return (
             <section>
                 <div className="row">
-                    <div className="col s12 m12 l4 light-blue darken-4 sameHeight" >
+                    <div className="col s12 m12 l4 light-blue darken-4 sameHeight" style={{ "height": "1328px" }} >
                         <Profile />
                         <Contact />
                         <Skills />
@@ -27,7 +27,7 @@ export default class Home extends Component {
                         <Experiences />
                         <SkillsAndTechnology />
                         <Portfolio />
-                        <Modal name="sasdasd" />
+                        {/* <Modal name="sasdasd" /> */}
                     </div>
                 </div>
             </section>

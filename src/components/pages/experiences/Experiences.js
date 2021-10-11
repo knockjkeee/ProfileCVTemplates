@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Modal from '../../../components/Modal'
+import { dataExp } from '../../../components/data'
 
 export default class Experiences extends Component {
     render() {
-
+        // console.log(data.data[0])
+        // console.log(dataExp[0].rostelematika)
         return (
             <div>
                 <div className="card z-depth-0">
@@ -23,10 +25,8 @@ export default class Experiences extends Component {
                                     </h6>
                                     <p className="pt">
                                         <strong>Компания</strong> : ООО «Ростелематика»<br />
-                                        <strong><Modal title="Краткое описание деятельности: -> ..." name='{asdasdse}' />
-
-                                        </strong>
-                                        <br />
+                                        <strong>Краткое описание деятельности :
+                                        </strong> <Modal title="Подробности" name={dataExp[0].rostelematika} />
                                     </p>
 
                                 </blockquote>
@@ -41,7 +41,8 @@ export default class Experiences extends Component {
                                     </h6>
                                     <p className="pt">
                                         <strong>Компания</strong> : ООО «ТехноСерв АС»<br />
-                                        <strong>Краткое описание деятельности</strong> : Техническая дирекция. Проработка гос. контрактов (автоматизированные системы): Фотовидеофиксация, Весогабаритный контроль, Безопасный город, Интеллектуальные транспортные системы, Комплексные системы безопасности (СКУД, видеонаблюдение, Системы охранной сигнализации, Системы пожарной сигнализации, Системы речевого и аварийного оповещения). Декомпозиция технического задания, выбор вендоров (СПО, периферия), формирование предварительного бюджета, контроль проектирования. На всем цикле проработки объекта, прямая, при возможности, коммуникация с Заказчиком, выявление потребностей, определение слабых мест в техническом задании.<br />
+                                        <strong>Краткое описание деятельности :
+                                        </strong> <Modal title="Подробности" name={dataExp[1].ts} />
                                     </p>
 
                                 </blockquote>
@@ -56,7 +57,8 @@ export default class Experiences extends Component {
                                     </h6>
                                     <p className="pt">
                                         <strong>Компания</strong> : ООО «ЭйТи Сервис»<br />
-                                        <strong>Краткое описание деятельности</strong> : ИТ департамент. Реализация проектов внедрения комплексной системы фотовидеофиксации. Стройка, установка комплексов фотовидеофиксации. География: Волгоград, Чита, Омск.<br />
+                                        <strong>Краткое описание деятельности :
+                                        </strong> <Modal title="Подробности" name={dataExp[2].ITServ} />
                                     </p>
 
                                 </blockquote>
@@ -71,7 +73,8 @@ export default class Experiences extends Component {
                                     </h6>
                                     <p className="pt">
                                         <strong>Компания</strong> : ООО «Глобал Мультисервис»<br />
-                                        <strong>Краткое описание деятельности</strong> : Проектный отдел.Реализация проекта GPON г. Москвы. Проектирование, контроль исполнения контрактов. Заказчик Ростелеком.<br />
+                                        <strong>Краткое описание деятельности :
+                                        </strong> <Modal title="Подробности" name={dataExp[3].MultyServ} />
                                     </p>
 
                                 </blockquote>

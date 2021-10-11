@@ -4,13 +4,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  /* height: 4200px; */
+  text-align: justify;
+  /* height: 1320px; */
 }
 
 .wrap-content{
-  margin-top: 50px;
-  margin-bottom: 50;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
 .avatarImg img{
   display: block;
   margin: 0 auto;
@@ -23,21 +25,27 @@
 }
 
 .mt{
-  margin-top: 20px;
+  margin-top: 1px;
 }
 
 .pt {
-  padding-top: 10px;
+  padding-top: 1px;
 }
 
 h5 {
   font-size: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
 }
 
 h6 span {
   float: right;
   font-size: 14px;
+}
+
+
+.card-content.social{
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -66,4 +74,8 @@ h6 span {
     float: left;
     font-size: 90%;
   }
+  /* .card-content.social{
+    width: 700px;
+  } */
 } 
+
