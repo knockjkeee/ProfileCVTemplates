@@ -9,7 +9,7 @@ export default class SkillsDes extends Component {
                     <div className="col s12 m12 l14 white sameHeight">
                         <div className="card z-depth-0">
                             <div className="card-content social">
-                                <div className="row mt"
+                                <div className="row"
                                     style={{
                                         "maxHeight": "100vh",
                                         "overflowY": "auto"
