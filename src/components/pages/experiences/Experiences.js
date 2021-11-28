@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Modal from '../../../components/Modal'
 import { dataExp } from '../../../components/data'
+import NIS from './NIS'
 
 export default class Experiences extends Component {
     render() {
@@ -20,8 +21,24 @@ export default class Experiences extends Component {
                             <div className="col s12">
                                 <blockquote className="content-right">
                                     <h6 className="no-pad mt-bottom">
+                                        <strong>Разработчик программного обеспечения</strong>
+                                        <span>2021 - по настоящие время</span>
+                                    </h6>
+                                    <p className="pt">
+                                        <strong>Компания</strong> : ООО НИС<br />
+                                        <strong>Краткое описание деятельности : </strong>
+                                        <NIS title="Подробности" />
+                                    </p>
+
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div className="row mt">
+                            <div className="col s12">
+                                <blockquote className="content-right">
+                                    <h6 className="no-pad mt-bottom">
                                         <strong>Главный инженер проекта</strong>
-                                        <span>2020 - по настоящее время</span>
+                                        <span>2020 - 2021</span>
                                     </h6>
                                     <p className="pt">
                                         <strong>Компания</strong> : ООО «Ростелематика»<br />

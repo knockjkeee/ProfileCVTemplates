@@ -20,6 +20,7 @@ export default class sATdesc extends Component {
                                                 // "fontSize": "0.9em",
                                                 // "overflowY": "scroll"
                                             }}>
+
                                                 Программирование изучаю самостоятельно  c 2017 по настоящее время. <br />
                                                 <br />
                                                 Программа обучения сложилась в 4 основных этапа:<br />
@@ -56,6 +57,7 @@ export default class sATdesc extends Component {
                                                 Еще пробовал React:<br />
                                                 Github - https://github.com/knockjkeee/voda_template<br />
                                                 Простенький Landing page: https://knockjkeee.github.io/voda-app/<br />
+                                                Резюме:: https://github.com/knockjkeee/ProfileCVTemplates
                                                 <br />
                                                 Для простых задач, автоматизация рутины, использую Python. Как пример, посчитать количество и определить формат, pdf страниц готового проекта (в среднем, в проекте более 10 000 страниц), без рекурсии, в базовой директории.<br />
                                             </div>

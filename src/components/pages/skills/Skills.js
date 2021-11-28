@@ -18,6 +18,12 @@ export default class Skills extends Component {
                             </div>
                         </div>
                         <div className="col m6 s12">
+                            <p className="black-text text lighten-3">C#</p>
+                            <div className="progress grey">
+                                <div className="determinate light-blue" style={{ width: '25%' }}></div>
+                            </div>
+                        </div>
+                        <div className="col m6 s12">
                             <p className="black-text text lighten-3">Python</p>
                             <div className="progress grey">
                                 <div className="determinate light-blue" style={{ width: '35%' }}></div>
@@ -26,7 +32,13 @@ export default class Skills extends Component {
                         <div className="col m6 s12">
                             <p className="black-text text lighten-3">React</p>
                             <div className="progress grey">
-                                <div className="determinate light-blue" style={{ width: '25%' }}></div>
+                                <div className="determinate light-blue" style={{ width: '20%' }}></div>
+                            </div>
+                        </div>
+                        <div className="col m6 s12">
+                            <p className="black-text text lighten-3">PostgreSQL</p>
+                            <div className="progress grey">
+                                <div className="determinate light-blue" style={{ width: '55%' }}></div>
                             </div>
                         </div>
                         <div className="col m6 s12">
@@ -35,20 +47,7 @@ export default class Skills extends Component {
                                 <div className="determinate light-blue" style={{ width: '65%' }}></div>
                             </div>
                         </div>
-                        <div className="col m6 s12">
-                            <p className="black-text text lighten-3">PostgreSQL</p>
-                            <div className="progress grey">
-                                <div className="determinate light-blue" style={{ width: '65%' }}></div>
-                            </div>
-                        </div>
-                        <div className="col m6 s12">
-                            <p className="black-text text lighten-3">MySQL</p>
-                            <div className="progress grey">
-                                <div className="determinate light-blue" style={{ width: '65%' }}></div>
-                            </div>
-                        </div>
 
-                        {/* </div> */}
                     </div>
                 </div>
             </div>

@@ -21,7 +21,9 @@ export default class Modal extends Component {
                                         <blockquote className="content-right">
                                             {/* <div className="header center"> Modal Title </div> */}
                                             <div className="content">
-                                                <span>{this.props.name} </span>
+
+                                                <div>{this.props.name} </div>
+
                                             </div>
                                         </blockquote>
                                     </div>
